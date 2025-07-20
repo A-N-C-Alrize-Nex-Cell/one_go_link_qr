@@ -21,8 +21,12 @@
 .button {
   border: 1px solid white;
   border-radius: 10px;
-  padding: 8px 12px;
+  padding: 8px 16px;
 
   text-decoration: none;
   color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
