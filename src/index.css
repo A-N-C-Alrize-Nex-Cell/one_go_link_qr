@@ -16,9 +16,17 @@
   padding: 40px 0;
   background-color: black;
   color: white;
+/* 
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+ */
 }
 
 .button {
+  margin: 24px 0;
+  max-width: 200px;
+
   border: 1px solid white;
   border-radius: 10px;
   padding: 8px 16px;
@@ -28,5 +36,6 @@
 
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
 }
